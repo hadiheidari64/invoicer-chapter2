@@ -53,6 +53,6 @@ jobs:
           # Push application container to dockerhub
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-                docker login -u ${DOCKER_USER} -p ${DOCKER_PASS};
+                docker login -u ${hadiheidari64} -p ${S@yn@s0r3n@};
                 docker push ${DOCKER_REPO}/${CIRCLE_PROJECT_REPONAME};
             fi
