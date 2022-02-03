@@ -54,5 +54,5 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
                 docker login -u ${hadiheidari64} -p ${S@yn@s0r3n@};
-                docker push ${DOCKER_REPO}/${CIRCLE_PROJECT_REPONAME};
+                docker push ${hadiheidari64}/${invoicer-chapter2};
             fi
