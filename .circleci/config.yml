@@ -54,5 +54,5 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
                 docker login -u {xxx}} -p ${xxx};
-                docker push ${hadiheidari64}/${invoicer-chapter2};
+                docker push ${xxx}/${invoicer-chapter2};
             fi
